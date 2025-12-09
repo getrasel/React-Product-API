@@ -1,0 +1,20 @@
+import React from "react";
+import BannerLeft from "./banner/BannerLeft";
+import BannerRight from "./banner/BannerRight";
+
+const Banner = () => {
+  return (
+    <>
+      <div className="flex h-screen max-h-[850px]">
+        <div className="flex-1">
+          <BannerLeft />
+        </div>
+        <div className="flex-1">
+          <BannerRight />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Banner;
