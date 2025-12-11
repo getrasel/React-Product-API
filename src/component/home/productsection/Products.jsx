@@ -3,7 +3,7 @@ import ProductTitle from "./ProductTitle";
 import ProductItem from "./ProductItem";
 import { useNavigate } from "react-router-dom";
 
-const Product = (props) => {
+const Products = (props) => {
   const [item, setItem] = useState([]);
   const [limit, setLimit] = useState(8);
 
@@ -47,4 +47,4 @@ const Product = (props) => {
 };
 // #51594d
 // #cad3c4
-export default Product;
+export default Products;

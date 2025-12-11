@@ -1,6 +1,6 @@
 import React from "react";
-import BannerLeft from "./banner/BannerLeft";
-import BannerRight from "./banner/BannerRight";
+import BannerLeft from "./BannerLeft";
+import BannerRight from "./BannerRight";
 
 const Banner = () => {
   return (

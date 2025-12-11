@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import ProductTitle from "../home/productsection/ProductTitle";
+import ProductTitle from "../component//home/productsection/ProductTitle";
 import { Link } from "react-router-dom";
-import RatingProduct from "../home/productsection/RatingProduct";
-import ProductSkeleton from "../../skeleton/ProductSkeleton";
+import RatingProduct from "../component/home/productsection/RatingProduct";
+import ProductSkeleton from "../component/skeleton/ProductSkeleton";
 const Products = () => {
   const [product, setProduct] = useState([]);
   const AllProduct = async () => {

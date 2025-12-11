@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import RatingProduct from "./RatingProduct";
-import ProductSkeleton from "../../../skeleton/ProductSkeleton";
+import ProductSkeleton from "../../skeleton/ProductSkeleton";
 
 const ProductItem = (props) => {
   const skeletonitem = (count) => {

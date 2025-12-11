@@ -1,4 +1,4 @@
-import ProductTitle from "../../home/productsection/ProductTitle";
+import ProductTitle from "../home/productsection/ProductTitle";
 import Prleft from "./Prleft";
 import Prright from "./Prright";
 import { useEffect, useState } from "react";

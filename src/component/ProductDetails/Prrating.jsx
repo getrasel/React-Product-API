@@ -1,4 +1,4 @@
-import RatingProduct from "../../home/productsection/RatingProduct";
+import RatingProduct from "../home/productsection/RatingProduct";
 import { FaQuoteRight } from "react-icons/fa6";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";

@@ -3,7 +3,7 @@ import { MdOutlineTimer } from "react-icons/md";
 import { IoMdReturnLeft } from "react-icons/io";
 import { FaSortAmountUp } from "react-icons/fa";
 import Prcartnumber from "./prcartnumber";
-import RatingProduct from "../../home/productsection/RatingProduct";
+import RatingProduct from "../home/productsection/RatingProduct";
 
 const Prright = (props) => {
   return (

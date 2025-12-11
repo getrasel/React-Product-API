@@ -1,10 +1,10 @@
 import { Route, Routes, useLocation } from "react-router-dom";
-import Home from "./component/pages/home/Home";
-import About from "./component/pages/About";
-import Contact from "./component/pages/Contact";
-import Navmenu from "./component/hero/header/navmenu";
-import Products from "./component/pages/products/ProductPage";
-import ProductDetails from "./component/pages/products/ProductDetails/ProductDetails";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Products from "./pages/Product";
+import Navmenu from "./component/header/navmenu";
+import ProductDetails from "./component/ProductDetails/ProductDetails";
 import { useEffect } from "react";
 import Footer from "./component/footer/Footer";
 function App() {
